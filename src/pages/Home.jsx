@@ -7,6 +7,7 @@ const Home = () => {
     <>
       <HeroSection />
       <Features />
+      <Preinfo-Home />
     </>
   );
 };
