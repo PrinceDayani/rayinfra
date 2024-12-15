@@ -1,15 +1,14 @@
 import React from "react";
 import HeroSection from "../components/HeroSection";
-import Features from "../components/Features";
-import Preinfo-Home from "../components/Preinfo-Home";
-
+import PopularServiceHome from "../components/PopularServiceHome";
+import PreInfoHome from "../components/PreInfoHome";
 
 const Home = () => {
   return (
     <>
       <HeroSection />
-      <Features />
-      <Preinfo-Home />
+      <PopularServiceHome />
+      <PreInfoHome />
     </>
   );
 };
