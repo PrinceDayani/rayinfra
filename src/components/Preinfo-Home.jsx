@@ -50,4 +50,6 @@ const Preinfo = () => {
   );
 };
 
+
+
 export default Preinfo;
