@@ -9,7 +9,7 @@ const Home = () => {
       <HeroSection />
       <PopularServiceHome />
       <PreInfoHome />
-      <PreInfoo />
+      <Preinfoo />
     </>
   );
 };
