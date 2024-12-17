@@ -2,6 +2,7 @@ import React from "react";
 import HeroSection from "../components/HeroSection";
 import PopularServiceHome from "../components/PopularServiceHome";
 import PreInfoHome from "../components/PreInfoHome";
+import "../styles/PreInfoHome.css";
 
 const Home = () => {
   return (
