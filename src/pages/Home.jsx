@@ -1,4 +1,5 @@
 import React from "react";
+import React, { useEffect } from "react";
 import HeroSection from "../components/HeroSection";
 import PopularServiceHome from "../components/PopularServiceHome";
 import PreInfoHome from "../components/PreInfoHome";
@@ -16,6 +17,21 @@ const Home = () => {
 };
 
 const Preinfoo = () => {
+
+  useEffect(() => {
+    // Dynamically import the external CSS file
+    const link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = "../styles/PreInfoHome.css"; // Provide your actual URL or local path
+    document.head.appendChild(link);
+
+    // Cleanup the link tag when the component unmounts
+    return () => {
+      document.head.removeChild(link);
+    };
+  }, []);
+
+
   return (
     <section className="preinfo-container">
       {/* Statistics Section */}
