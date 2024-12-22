@@ -149,7 +149,6 @@ const PopularServiceHome = () => {
         ))}
       </div>
     </div>
-
     
   );
 };
