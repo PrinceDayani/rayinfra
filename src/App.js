@@ -4,9 +4,12 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import ProjectPage from "./pages/ProjectPage";
-import Sector from "./pages/Sector";
+import Error404 from "./pages/Error404"; 
+import Power from "./pages/Power";
+import Infrastructure from "./pages/Infrastructure";
+import ResourcesHC from "./pages/ResourcesHC"
+import ResourcesMM from "./pages/ResourcesMM"
 
-import Error404 from "./pages/Error404"; // Import your 404 page
 
 const App = () => {
   return (
@@ -16,9 +19,12 @@ const App = () => {
         {/* Define all your valid routes */}
         <Route path="/" element={<Home />} />
         <Route path="/Project" element={<ProjectPage />} />
-        <Route path="/Sector" element={<Sector />} /> 
         {/* Catch-all route for undefined pages */}
         <Route path="*" element={<Error404 />} />
+        <Route path="/Power" element={<Power />}/>
+        <Route path="/Infrastructure" element={<Infrastructure />}/>
+        <Route path="/ResourcesHC" element={<ResourcesHC />}/>
+        <Route path="/ResourcesMM" element={<ResourcesMM />}/>
       </Routes>
       <Footer />
     </Router>
