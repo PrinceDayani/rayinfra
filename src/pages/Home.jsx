@@ -149,6 +149,8 @@ const PopularServiceHome = () => {
         ))}
       </div>
     </div>
+
+    
   );
 };
 
@@ -187,7 +189,6 @@ const ProjectsSection = () => {
       </div>
     </div>
   );
-   
 };
 
 const PreInfoHome = () => {
@@ -228,6 +229,7 @@ const PreInfoHome = () => {
       gap: "2rem",
       width: "100%",
     },
+    
     imageContainer: {
       position: "relative",
       width: "100%",
@@ -310,7 +312,7 @@ const PreInfoHome = () => {
 
       {/* Content Section */}
       <div style={styles.content}>
-        <div style={styles.imageContainer}>
+        <div id="left-text1" style={styles.imageContainer}>
           <img
             src="https://via.placeholder.com/500x350"
             alt="Infrastructure"
@@ -337,6 +339,9 @@ const PreInfoHome = () => {
         </div>
       </div>
     </div>
+
+
+
   );
 };
 
