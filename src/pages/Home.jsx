@@ -339,7 +339,6 @@ const PreInfoHome = () => {
   );
 };
 
-
 const Home = () => {
   return (
     <>
