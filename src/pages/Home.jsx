@@ -348,6 +348,7 @@ const Home = () => {
       <PreInfoHome />
       <ProjectsSection />
       <ContactUsSecHome />
+      <SpeedInsights/>
     </>
   );
 };
