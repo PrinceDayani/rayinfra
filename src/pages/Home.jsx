@@ -187,6 +187,7 @@ const ProjectsSection = () => {
       </div>
     </div>
   );
+   
 };
 
 const PreInfoHome = () => {

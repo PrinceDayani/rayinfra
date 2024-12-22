@@ -43,10 +43,10 @@ const Header = () => {
     <header className="header">
       {/* Top Bar */}
       <div className="top-bar">
-        <p>
-          We Are Professional &amp; Established Engineering, Building Trust
-          Company. Need Any Help?
-        </p>
+      <p style={{ fontFamily: 'Outfit, sans-serif' }}>
+      We Are Professional &amp; Established Engineering, Building Trust
+      Company. Need Any Help?
+    </p>
         <div className="social-icons">
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-facebook-f"></i>
@@ -67,7 +67,6 @@ const Header = () => {
       <div className={`nav-bar ${isMobileMenuOpen ? "active" : ""}`}>
         <div className="logo">
           <img src={logo} alt="Ray" />
-          <span className="company-name">Ray Infrastructures Pvt. Ltd.</span>
         </div>
 
         <nav className={`nav-links ${isMobileMenuOpen ? "active" : ""}`}>

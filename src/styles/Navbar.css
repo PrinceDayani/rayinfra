@@ -10,6 +10,10 @@ body, html {
   height: 100%;
 }
 
+.custom-font {
+  font-family: 'Outfit', sans-serif;
+}
+
 .header {
   width: 100%;
   margin-bottom: 0; /* Ensure no extra space after the header */
