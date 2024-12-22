@@ -1,6 +1,6 @@
 import React from "react";
 import ContactUsSecHome from "../components/ContactUsSecHome";
-
+import { SpeedInsights } from "@vercel/speed-insights/react"
 // Reusable Styles
 const buttonStyle = {
   fontSize: "1rem",
