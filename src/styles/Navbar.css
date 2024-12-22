@@ -80,13 +80,14 @@
 
 .dropdown-content a {
   display: block;
-  padding: 10px 20px;
+  padding: 20px 30px;
   color: black;
   text-decoration: none;
 }
 
 .dropdown-content a:hover {
   background-color: #eb002b;
+  text-decoration: underline;
   color: white;
 }
 
@@ -95,16 +96,17 @@
 }
 
 /* Contact Button */
-.contact-btn {
+.contact-btnX {
   background-color: #87212e;
-  color: white;
   border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 10px;
   cursor: pointer;
   font-weight: bold;
+  
 }
 
-.contact-btn:hover {
+.contact-btnX:hover {
   background-color: #eb002b;
 }

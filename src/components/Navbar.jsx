@@ -44,9 +44,8 @@ const Header = () => {
               <Link to="/design">Design & Build</Link>
             </div>
           </div>
-          <Link to="/contact">Contact Us</Link>
         </nav>
-        <button className="contact-btn">Contact With Us</button>
+        <button className="contact-btnX">Contact Us</button>
       </div>
     </header>
   );
